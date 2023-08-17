@@ -9,5 +9,5 @@
 # GUEST - VMware vSphere VM settings 
 # -------------------------------------------------------------
 
-guest_category_name = "CUSTOM-CATEGORY"
-guest_tag_name = "CUSTOM-TAG"
+guest_category_name = "Analytics-App"
+guest_tag_name = "Productive-Linux"
