@@ -35,7 +35,7 @@ module "nat-db01" {
     guest_memory            = "4096"
     guest_disk0_size        = "30"
     guest_network           = "TF-Segment-DB"
-    guest_ipv4_address      = "10.10.40.10"
+    guest_ipv4_address      = "10.10.40.11"
     guest_ipv4_netmask      = "24"
     guest_ipv4_gateway      = "10.10.40.1"
     guest_dns_servers       = "10.10.40.1"
