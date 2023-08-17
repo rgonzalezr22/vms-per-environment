@@ -8,6 +8,10 @@
 # -------------------------------------------------------------
 # INFRASTRUCTURE - VMware vSphere vCenter settings 
 # -------------------------------------------------------------
-vsphere_datacenter = "EAST-DC"
+vsphere_datacenter = "Datacenter"
 vsphere_folder = "Production"
 vsphere_sub_folder = "Applications"
+    user                    = CloudOwner@gve.local
+    password                = TMcaYhQi=kwjXU0W
+    vsphere_server          = vcsa-196337.a5a79b67.us-west2.gve.goog
+    allow_unverified_ssl    = false
