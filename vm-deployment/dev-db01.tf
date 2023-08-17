@@ -43,6 +43,6 @@ module "dev-db01" {
     guest_domain            = "flexlab.local"
        
     guest_category_name     = "environment"
-    guest_tag_name          = "dev"
+    guest_tag_name          = "prod"
 }
 
