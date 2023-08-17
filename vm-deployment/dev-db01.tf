@@ -42,7 +42,7 @@ module "dev-db01" {
     guest_dns_suffix        = "flexlab.local"
     guest_domain            = "flexlab.local"
        
-    guest_category_name     = "environment
+    guest_category_name     = "environment"
     guest_tag_name          = "dev"
 }
 
