@@ -30,7 +30,7 @@ module "nat-db01" {
     # -------------------------------------------------------------
     guest_template          = "Ubuntu-20-04-Template"
     guest_template_folder   = "Templates"
-    guest_vm_name           = "nat-db01"
+    guest_vm_name           = "dev-db01"
     guest_vcpu              = "1"
     guest_memory            = "4096"
     guest_disk0_size        = "30"
