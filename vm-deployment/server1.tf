@@ -14,7 +14,7 @@ r# -------------------------------------------------------------
 # Create web server - nat-app01
 # -------------------------------------------------------------
 
-module "nat-app01" {
+module "server1" {
     source          = "../modules/vsphere-deploy-linux-vm/"
     # -------------------------------------------------------------
     # INFRASTRUCTURE - VMware vSphere vCenter settings 
