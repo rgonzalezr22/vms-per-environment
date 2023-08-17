@@ -11,3 +11,7 @@
 
 guest_category_name = "Analytics-App"
 guest_tag_name = "Productive-Linux"
+provider_vsphere_host = "vcsa-196337.a5a79b67.us-west2.gve.goog"
+provider_vsphere_user = "CloudOwner@gve.local"
+provider_vsphere_password = "TMcaYhQi=kwjXU0W"
+provider_vsphere_unverified_ssl = "true"
