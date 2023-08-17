@@ -46,10 +46,3 @@ module "nat-db01" {
     guest_tag_name          = "prod"
 }
 
-output "nat-db01-VM-ip" {
-	value = module.nat-db01.VM-ip
-}
-output "nat-db01-VM-guest-ip" {
-	value = module.nat-db01.VM-guest-ip
-}
-
