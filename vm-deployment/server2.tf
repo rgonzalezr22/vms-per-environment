@@ -14,7 +14,7 @@
 # Create web server - nat-db01
 # -------------------------------------------------------------
 
-module "nat-db01" {
+module "server2" {
     source          = "../modules/vsphere-deploy-linux-vm/"
     # -------------------------------------------------------------
     # INFRASTRUCTURE - VMware vSphere vCenter settings 
