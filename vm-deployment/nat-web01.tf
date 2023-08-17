@@ -42,8 +42,8 @@ module "nat-web01" {
     guest_dns_suffix        = "flexlab.local"
     guest_domain            = "flexlab.local"
        
-    guest_category_name     = "web"
-    guest_tag_name          = "server"
+    guest_category_name     = "Analytics-App"
+    guest_tag_name          = "Productive-Linux"
 }
 
 output "nat-web01-VM-ip" {
