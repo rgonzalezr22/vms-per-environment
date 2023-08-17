@@ -42,13 +42,6 @@ module "nat-app01" {
     guest_dns_suffix        = "flexlab.local"
     guest_domain            = "flexlab.local"
        
-    guest_category_name     = "Analytics-App"
-    guest_tag_name          = "Productive-Linux"
-}
-
-output "nat-app01-VM-ip" {
-	value = module.nat-app01.VM-ip
-}
-output "nat-app01-VM-guest-ip" {
-	value = module.nat-app01.VM-guest-ip
+    guest_category_name     = "environment
+    guest_tag_name          = "prod"
 }
