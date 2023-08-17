@@ -38,17 +38,11 @@ module "nat-app01" {
     guest_ipv4_address      = "10.10.30.11"
     guest_ipv4_netmask      = "24"
     guest_ipv4_gateway      = "10.10.30.1"
-    guest_dns_servers       = "10.10.30.1"
+    guest_dns_servers       = "8.8.8.8"
     guest_dns_suffix        = "flexlab.local"
     guest_domain            = "flexlab.local"
        
-    guest_category_name     = "Analytics-App"
-    guest_tag_name          = "Productive-Linux"
+    guest_category_name     = "environment
+    guest_tag_name          = "dev"
 }
 
-output "nat-app01-VM-ip" {
-	value = module.nat-app01.VM-ip
-}
-output "nat-app01-VM-guest-ip" {
-	value = module.nat-app01.VM-guest-ip
-}
