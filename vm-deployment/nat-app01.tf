@@ -34,7 +34,7 @@ module "nat-app01" {
     guest_vcpu              = "1"
     guest_memory            = "4096"
     guest_disk0_size        = "30"
-    guest_network           = "lab-mgmt"
+    guest_network           = "TF-Segment-App"
     guest_ipv4_address      = "10.10.30.10"
     guest_ipv4_netmask      = "24"
     guest_ipv4_gateway      = "10.10.30.1"
