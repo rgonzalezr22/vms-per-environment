@@ -11,7 +11,7 @@
 vsphere_datacenter = "Datacenter"
 vsphere_folder = "Production"
 vsphere_sub_folder = "Applications"
-    user                    = CloudOwner@gve.local
-    password                = TMcaYhQi=kwjXU0W
-    vsphere_server          = vcsa-196337.a5a79b67.us-west2.gve.goog
-    allow_unverified_ssl    = false
+provider_vsphere_host = vcsa-196337.a5a79b67.us-west2.gve.goog
+provider_vsphere_user = CloudOwner@gve.local
+provider_vsphere_password = TMcaYhQi=kwjXU0W
+provider_vsphere_unverified_ssl = true
