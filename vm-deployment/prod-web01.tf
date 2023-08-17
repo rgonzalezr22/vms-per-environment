@@ -45,11 +45,3 @@ module "nat-web01" {
     guest_category_name     = "environment"
     guest_tag_name          = "prod"
 }
-
-output "nat-web01-VM-ip" {
-	value = module.nat-web01.VM-ip
-}
-output "nat-web01-VM-guest-ip" {
-	value = module.nat-web01.VM-guest-ip
-}
-
