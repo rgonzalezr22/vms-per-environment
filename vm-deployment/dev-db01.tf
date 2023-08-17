@@ -38,18 +38,11 @@ module "nat-db01" {
     guest_ipv4_address      = "10.10.40.11"
     guest_ipv4_netmask      = "24"
     guest_ipv4_gateway      = "10.10.40.1"
-    guest_dns_servers       = "10.10.40.1"
+    guest_dns_servers       = "8.8.8.8"
     guest_dns_suffix        = "flexlab.local"
     guest_domain            = "flexlab.local"
        
-    guest_category_name     = "Analytics-App"
-    guest_tag_name          = "Productive-Linux"
-}
-
-output "nat-db01-VM-ip" {
-	value = module.nat-db01.VM-ip
-}
-output "nat-db01-VM-guest-ip" {
-	value = module.nat-db01.VM-guest-ip
+    guest_category_name     = "environment
+    guest_tag_name          = "dev"
 }
 
